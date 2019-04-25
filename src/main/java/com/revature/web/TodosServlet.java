@@ -15,7 +15,7 @@ public class TodosServlet extends HttpServlet {
 	
 	private final TodoDao dao = new TodoDaoImpl();
 	private final ObjectMapper mapper = new ObjectMapper();
-	
+	//
 	private static final long serialVersionUID = 1L;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
